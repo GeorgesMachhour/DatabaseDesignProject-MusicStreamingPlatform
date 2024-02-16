@@ -1,0 +1,25 @@
+scratch:
+
+In a database ER diagram, a scenario of a streaming service like Spotify , between a listener and an artist, where the entities are "Artist" and "Listener", "Album" and "Single". The "Artist" has: an "Artist ID" , an "Artist name" , "About paragraph", "Discography" , "Popular releases ", and "Number of monthly listeners" on his profile. The "Listener" have a "Listener ID" , "Listener username", "Liked songs", and "Playlists".
+A "Single" have a "Single ID", a "single Name", "Single duration", and  "genre". 
+An "Album" have many tracks in it, so it has: an "Album ID", "Album name" , "number of tracks" , "tracks names", "track duration" , and "Genre".
+The "Artist" releases an "Album" containing more than one track, or a "Single" containing one track.
+
+A "Listener" has a "Listener ID", "Listsener username", "Liked songs" , and "Playlists" :
+The "Listener" can follow one artist, more than one artist, or none.
+The "Listener" can listen to a "Single" track or/and to tracks in an "Album": He can stream a track or more in an "Album"...
+The "Listener" can like a "Single" or more, an "Album" or more , a track or more than one track in that "Album". These likes form a "Liked Songs" playlist.
+The "Listener" aka user of the streaming platform, can create "Playlists" and add tracks to it.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Result:
+
+In an Entity-Relationship (ER) diagram for a music streaming service like Spotify, Anghami, and Apple Music, there exists a scenario where the primary entities are "Artist" and "Listener", with supporting entities of "Album" and "Single". The "Artist" entity is characterized by attributes such as "Artist ID", "Artist name", "About paragraph", "Discography", "Popular releases", and "Number of monthly listeners". The "Listener" entity is associated with attributes such as "Listener ID", "Listener username", "Liked songs", and "Playlists".
+
+The "Single" entity comprises of attributes such as "Single ID", "Single Name", "Single duration", and "genre".
+Where the "Album" entity contains multiple tracks and is identified by attributes such as "Album ID", "Album name", "Number of tracks", "Tracks names", "Track duration", and "Genre".
+
+The "Artist" can release an "Album" that contains several tracks or a "Single" that comprises of a single track.
+The "Listener" has the ability to stream to either one or multiple "Single(s)" and also to one or multiple tracks within an "Album".
+The "Listener" can choose to follow one or more artists or none, and can stream a "Single" track or multiple tracks from an "Album".
+The "Listener" can also like one or more "Single(s)", one or more "Album(s)", or/and one or more tracks in that "Album" and these create a "Liked Songs" playlist. Additionally, the "Listener" can create custom "Playlists" where he can add tracks to them.
