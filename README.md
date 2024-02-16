@@ -1,1 +1,7 @@
-# DatabaseDesignProject-MusicStreaminPlatform
+In an Entity-Relationship (ER) diagram for a music streaming service like Spotify, Anghami, and Apple Music, there exists a scenario where the primary entities are "Artist" and "Listener", with supporting entities of "Album" and "Single". The "Artist" entity is characterized by attributes such as "Artist ID", "Artist name", "About paragraph", "Discography", "Popular releases", and "Number of monthly listeners". The "Listener" entity is associated with attributes such as "Listener ID", "Listener username", "Liked songs", and "Playlists".
+The "Single" entity comprises of attributes such as "Single ID", "Single Name", "Single duration", and "genre".
+Where the "Album" entity contains multiple tracks and is identified by attributes such as "Album ID", "Album name", "Number of tracks", "Tracks names", "Track duration", and "Genre".
+The "Artist" can release an "Album" that contains several tracks or a "Single" that comprises of a single track.
+The "Listener" has the ability to stream to either one or multiple "Single(s)" and also to one or multiple tracks within an "Album".
+The "Listener" can choose to follow one or more artists or none, and can stream a "Single" track or multiple tracks from an "Album".
+The "Listener" can also like one or more "Single(s)", one or more "Album(s)", or/and one or more tracks in that "Album" and these create a "Liked Songs" playlist. Additionally, the "Listener" can create custom "Playlists" where he can add tracks to them.
